@@ -51,7 +51,7 @@ public class DoubleLinkedListUsingArray {
 	}
 
 	@Test
-	public void outOfSpace() {
+	public void outOfSpace() {		
 		String msg = "";
 		for (int i = 0; i < 9; i++)
 			listWithArray.allocateObject();
