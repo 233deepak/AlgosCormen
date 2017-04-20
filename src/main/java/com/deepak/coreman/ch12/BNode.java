@@ -6,9 +6,14 @@ public class BNode {
 	BNode left;
 	BNode right;
 	BNode parent;
+	boolean equalFlag;
+	
+	String text;
+	
 
 	public BNode(int element) {
 		this.element = element;
+		this.equalFlag =false;
 	}
 
 	@Override
