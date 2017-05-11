@@ -21,6 +21,7 @@ public class ArrayHelper {
 		}
 	}
 
+	
 	public static <T> void printList(List<T> list) {
 		for (T t : list) {
 			System.out.println(t);
