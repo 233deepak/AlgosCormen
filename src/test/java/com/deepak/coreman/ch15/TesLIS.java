@@ -44,5 +44,7 @@ public class TesLIS {
 		int maxSum = lis.maxIncresingSequence(array);
 		assertEquals(106, maxSum);
 	}
+	
+	
 
 }
